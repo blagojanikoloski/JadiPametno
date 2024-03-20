@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JadiPametno")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b9e5049f1050ec0a364d68eca33077f9b272a86")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4c8902dc7f9103eeaf0c2326292dd23ad1d1a09")]
 [assembly: System.Reflection.AssemblyProductAttribute("JadiPametno")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JadiPametno")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
