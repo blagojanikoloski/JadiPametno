@@ -12,8 +12,9 @@
 
 
 .popup-container {
+    overflow: auto;
     width: 80%;
-    height: auto;
+    height: 80%;
     display: none;
     position: fixed;
     top: 50%;
