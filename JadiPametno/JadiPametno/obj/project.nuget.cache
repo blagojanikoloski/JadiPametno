@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GMpT1DWjWPRx/fgySpxVBkWIx6AS2c6fVn9gzfNKBgU6R+9VRiDWx41AcZWSPb0kfLYKfDL6d3nvG940HmpGOg==",
+  "dgSpecHash": "NwYWhnfGPSzPG6YUFgUHJTs1zLbW7iIAjfIuhV5bDWxiW647Rz7HrHIfViCYdwK0JizEJVwdSmcKupGd5+Y8oA==",
   "success": true,
-  "projectFilePath": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\JadiPametno.csproj",
+  "projectFilePath": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\JadiPametno.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Blagoja Nikoloski\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512"
   ],

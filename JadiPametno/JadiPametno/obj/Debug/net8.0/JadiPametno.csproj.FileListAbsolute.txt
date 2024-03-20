@@ -28,3 +28,34 @@ D:\JadiPametno\.net project\JadiPametno\JadiPametno\obj\Debug\net8.0\refint\Jadi
 D:\JadiPametno\.net project\JadiPametno\JadiPametno\obj\Debug\net8.0\JadiPametno.pdb
 D:\JadiPametno\.net project\JadiPametno\JadiPametno\obj\Debug\net8.0\JadiPametno.genruntimeconfig.cache
 D:\JadiPametno\.net project\JadiPametno\JadiPametno\obj\Debug\net8.0\ref\JadiPametno.dll
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\bin\Debug\net8.0\appsettings.Development.json
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\bin\Debug\net8.0\appsettings.json
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\bin\Debug\net8.0\JadiPametno.staticwebassets.runtime.json
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\bin\Debug\net8.0\JadiPametno.exe
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\bin\Debug\net8.0\JadiPametno.deps.json
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\bin\Debug\net8.0\JadiPametno.runtimeconfig.json
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\bin\Debug\net8.0\JadiPametno.dll
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\bin\Debug\net8.0\JadiPametno.pdb
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\JadiPametno.GeneratedMSBuildEditorConfig.editorconfig
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\JadiPametno.AssemblyInfoInputs.cache
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\JadiPametno.AssemblyInfo.cs
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\JadiPametno.csproj.CoreCompileInputs.cache
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\JadiPametno.MvcApplicationPartsAssemblyInfo.cache
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\JadiPametno.RazorAssemblyInfo.cache
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\JadiPametno.RazorAssemblyInfo.cs
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\JadiPametno.sourcelink.json
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\staticwebassets.build.json
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\staticwebassets.development.json
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\staticwebassets\msbuild.JadiPametno.Microsoft.AspNetCore.StaticWebAssets.props
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\staticwebassets\msbuild.build.JadiPametno.props
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.JadiPametno.props
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.JadiPametno.props
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\staticwebassets.pack.json
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\scopedcss\bundle\JadiPametno.styles.css
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\scopedcss\projectbundle\JadiPametno.bundle.scp.css
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\JadiPametno.dll
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\refint\JadiPametno.dll
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\JadiPametno.pdb
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\JadiPametno.genruntimeconfig.cache
+D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\ref\JadiPametno.dll

@@ -19,6 +19,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const heightInput = document.getElementById('height-input');
     const activityRadios = document.querySelectorAll('input[name="activity"]');
     const calculateButton = document.querySelector('.home-calculate-button');
+    const tdeeText = document.getElementById('TDEE');
+
+    const cut025Text = document.getElementById('cut025');
+    const cut050Text = document.getElementById('cut050');
+    const cut100Text = document.getElementById('cut100');
+    const bulk025Text = document.getElementById('bulk025');
+    const bulk050Text = document.getElementById('bulk050');
+    const bulk100Text = document.getElementById('bulk100');
 
     // Function to check if all required fields are filled
     function areFieldsFilled() {
@@ -78,6 +86,17 @@ document.addEventListener("DOMContentLoaded", function () {
             default:
                 tdee = bmr * 1.2;
         }
+
+        tdeeText.textContent = tdee.toFixed(0);
+
+        cut025Text.textContent = (tdee * 0.9).toFixed(0) + 'kcal/ден';
+        cut050Text.textContent = (tdee * 0.79).toFixed(0) + 'kcal/ден';
+        cut100Text.textContent = (tdee * 0.58).toFixed(0) + 'kcal/ден';
+
+        bulk025Text.textContent = (tdee * 1.1).toFixed(0) + 'kcal/ден';
+        bulk050Text.textContent = (tdee * 1.21).toFixed(0) + 'kcal/ден';
+        bulk100Text.textContent = (tdee * 1.42).toFixed(0) + 'kcal/ден';
+
         return tdee;
     }
 

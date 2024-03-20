@@ -1,347 +1,347 @@
 {
   "Files": [
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\JadiPametno.bundle.scp.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\JadiPametno.bundle.scp.css",
       "PackagePath": "staticwebassets\\JadiPametno.bundle.scp.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\components\\copyright.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\components\\copyright.css",
       "PackagePath": "staticwebassets\\components\\copyright.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\components\\copyright.html",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\components\\copyright.html",
       "PackagePath": "staticwebassets\\components\\copyright.html"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\components\\feature-card.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\components\\feature-card.css",
       "PackagePath": "staticwebassets\\components\\feature-card.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\components\\feature-card.html",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\components\\feature-card.html",
       "PackagePath": "staticwebassets\\components\\feature-card.html"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\components\\footer.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\components\\footer.css",
       "PackagePath": "staticwebassets\\components\\footer.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\components\\footer.html",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\components\\footer.html",
       "PackagePath": "staticwebassets\\components\\footer.html"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\components\\navbar.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\components\\navbar.css",
       "PackagePath": "staticwebassets\\components\\navbar.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\components\\navbar.html",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\components\\navbar.html",
       "PackagePath": "staticwebassets\\components\\navbar.html"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\components\\navigation-links.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\components\\navigation-links.css",
       "PackagePath": "staticwebassets\\components\\navigation-links.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\components\\navigation-links.html",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\components\\navigation-links.html",
       "PackagePath": "staticwebassets\\components\\navigation-links.html"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\css\\index.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\css\\popup.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\css\\popup.css",
       "PackagePath": "staticwebassets\\css\\popup.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\css\\site.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\css\\style.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\favicon.ico",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\js\\calorieCalculator.js",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\js\\calorieCalculator.js",
       "PackagePath": "staticwebassets\\js\\calorieCalculator.js"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\js\\popup.js",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\js\\popup.js",
       "PackagePath": "staticwebassets\\js\\popup.js"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\js\\script.js",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\js\\script.js",
       "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\js\\site.js",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\public\\all_food-200h.png",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\public\\all_food-200h.png",
       "PackagePath": "staticwebassets\\public\\all_food-200h.png"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\public\\calculator-1200w.png",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\public\\calculator-1200w.png",
       "PackagePath": "staticwebassets\\public\\calculator-1200w.png"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\public\\food-min-1000w.png",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\public\\food-min-1000w.png",
       "PackagePath": "staticwebassets\\public\\food-min-1000w.png"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\public\\jadipametnologo-1200w.png",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\public\\jadipametnologo-1200w.png",
       "PackagePath": "staticwebassets\\public\\jadipametnologo-1200w.png"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\public\\jadipametnologo-1500h.png",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\public\\jadipametnologo-1500h.png",
       "PackagePath": "staticwebassets\\public\\jadipametnologo-1500h.png"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\public\\jadipametnologo-200h.png",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\public\\jadipametnologo-200h.png",
       "PackagePath": "staticwebassets\\public\\jadipametnologo-200h.png"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\public\\keto-200h.png",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\public\\keto-200h.png",
       "PackagePath": "staticwebassets\\public\\keto-200h.png"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\public\\vegan-200h.png",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\public\\vegan-200h.png",
       "PackagePath": "staticwebassets\\public\\vegan-200h.png"
     },
     {
-      "Id": "D:\\JadiPametno\\.net project\\JadiPametno\\JadiPametno\\wwwroot\\public\\vegetarian-200h.png",
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\public\\vegetarian-200h.png",
       "PackagePath": "staticwebassets\\public\\vegetarian-200h.png"
     },
     {
