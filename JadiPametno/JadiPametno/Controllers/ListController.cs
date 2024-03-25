@@ -32,9 +32,9 @@ namespace JadiPametno.Controllers
             var selectedRecipes = GetRecipesForCalories(recipes, calories, numberOfMeals);
 
             // Pass the selected recipes and other data to the view
-            ViewBag.Recipes = selectedRecipes;
-            ViewBag.Calories = calories;
-            ViewBag.NumberOfMeals = numberOfMeals;
+            TempData["Recipes"] = selectedRecipes;
+            TempData["Calories"] = calories;
+            TempData["NumberOfMeals"] = numberOfMeals;
 
             return View();
         }
@@ -98,7 +98,8 @@ namespace JadiPametno.Controllers
                 }
             }
 
-            ViewBag.TotalCalories = totalCalories;
+
+            TempData["TotalCalories"] = totalCalories;
 
             return selectedRecipes;
         }

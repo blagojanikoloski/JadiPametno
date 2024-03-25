@@ -167,33 +167,26 @@
                 <div class="list-calculator-section section-container">
                     <div class="list-max-width max-content-container">
                         <div id="calorie-calculator" class="list-calorie-calculator">
-                            <span class="list-text">@ViewBag.TotalCalories калории вкупно</span>
+                            <span class="list-text">@TempData["TotalCalories"] калории вкупно</span>
 
                             <form id="listForm" action="/list" method="post">
-                                @if (ViewBag.Calories != null)
+                                @if (TempData["Calories"] != null)
                                 {
-                                    <input type="hidden" name="calories" value="@ViewBag.Calories" />
+                                    <input type="hidden" name="calories" value="@TempData["Calories"]" />
                                 }
 
-                                @if (ViewBag.NumberOfMeals != null)
+                                @if (TempData["NumberOfMeals"] != null)
                                 {
-                                    <input type="hidden" name="numberOfMeals" value="@ViewBag.NumberOfMeals" />
+                                    <input type="hidden" name="numberOfMeals" value="@TempData["NumberOfMeals"]" />
                                 }
 
-                                @if (ViewBag.Recipes != null)
-                                {
-                                    foreach (var recipe in ViewBag.Recipes)
-                                    {
-                                        <input type="hidden" name="recipes" value="@recipe" />
-                                    }
-                                }
 
                                 <button class="list-calculate-button button-primary button" type="submit">Друго</button>
                             </form>
 
                             <div class="list-cards">
 
-                                @foreach (var recipe in ViewBag.Recipes)
+                                @foreach (var recipe in TempData["Recipes"] as List<Recipe>)
                                 {
 
 
