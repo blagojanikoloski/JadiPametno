@@ -85,7 +85,8 @@
     right: 7rem;
     transform: translateY(50%) translateY( calc( (var(--size) * 0.4) ) ) translateY(calc(var(--hover, 0) * (var(--size) * -0.4)));
     background: purple;
-    display: flex; /* Use flexbox for easier centering */
+    /*display: flex;  Use flexbox for easier centering */
+    display: none;
     align-items: center; /* Center items vertically */
     justify-content: center; /* Center items horizontally */
     place-items: center;
