@@ -1,17 +1,11 @@
-using JadiPametno.Models;
+﻿using JadiPametno.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace JadiPametno.Controllers
 {
-    public class HomeController : Controller
+    public class ListController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
 
         public IActionResult Index()
         {

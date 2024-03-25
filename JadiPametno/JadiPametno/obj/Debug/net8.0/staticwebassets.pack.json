@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\css\\list.css",
+      "PackagePath": "staticwebassets\\css\\list.css"
+    },
+    {
       "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\css\\popup.css",
       "PackagePath": "staticwebassets\\css\\popup.css"
     },
@@ -311,6 +315,10 @@
     {
       "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\public\\all_food-200h.png",
       "PackagePath": "staticwebassets\\public\\all_food-200h.png"
+    },
+    {
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\public\\burger.jpg",
+      "PackagePath": "staticwebassets\\public\\burger.jpg"
     },
     {
       "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\public\\calculator-1200w.png",
