@@ -178,77 +178,24 @@
 
 
 
-                                <a href="#" class="card">
-                                    <img src="public/burger.jpg"
-                                         alt="balloon with an emoji face" class="card__img">
-                                    <span class="card__footer">
-                                        <span>Burger</span>
-                                        <span>700kcal</span>
-                                    </span>
-                                    <span class="card__action1">
-                                        <span>Рецепт</span>
-                                    </span>
-                                    <span class="card__action2">
-                                        <span>Замени</span>
-                                    </span>
-                                </a>
+                                @foreach (var recipe in ViewBag.Recipes)
+                                {
+                                    <a href="#" class="card">
+                                        <img src="@recipe.ImageUrl" alt="@recipe.Name" class="card__img">
+                                        <span class="card__footer">
+                                            <span>@recipe.Name</span>
+                                            <span>@recipe.Calories kcal</span>
+                                        </span>
+                                        <span class="card__action1">
+                                            <span>Рецепт</span>
+                                        </span>
+                                        <span class="card__action2">
+                                            <span>Замени</span>
+                                        </span>
+                                    </a>
+                                }
 
-                                <a href="#" class="card">
-                                    <img src="public/burger.jpg"
-                                         alt="balloon with an emoji face" class="card__img">
-                                    <span class="card__footer">
-                                        <span>Burger</span>
-                                        <span>700kcal</span>
-                                    </span>
-                                    <span class="card__action1">
-                                        <span>Замени</span>
-                                    </span>
-                                    <span class="card__action2">
-                                        <span>Рецепт</span>
-                                    </span>
-                                </a>
-                                <a href="#" class="card">
-                                    <img src="public/burger.jpg"
-                                         alt="balloon with an emoji face" class="card__img">
-                                    <span class="card__footer">
-                                        <span>Burger</span>
-                                        <span>700kcal</span>
-                                    </span>
-                                    <span class="card__action1">
-                                        <span>Замени</span>
-                                    </span>
-                                    <span class="card__action2">
-                                        <span>Рецепт</span>
-                                    </span>
-                                </a>
-                                <a href="#" class="card">
-                                    <img src="public/burger.jpg"
-                                         alt="balloon with an emoji face" class="card__img">
-                                    <span class="card__footer">
-                                        <span>Burger</span>
-                                        <span>700kcal</span>
-                                    </span>
-                                    <span class="card__action1">
-                                        <span>Замени</span>
-                                    </span>
-                                    <span class="card__action2">
-                                        <span>Рецепт</span>
-                                    </span>
-                                </a>
-                                <a href="#" class="card">
-                                    <img src="public/burger.jpg"
-                                         alt="balloon with an emoji face" class="card__img">
-                                    <span class="card__footer">
-                                        <span>Burger</span>
-                                        <span>700kcal</span>
-                                    </span>
-                                    <span class="card__action1">
-                                        <span>Замени</span>
-                                    </span>
-                                    <span class="card__action2">
-                                        <span>Рецепт</span>
-                                    </span>
-                                </a>
+                               
 
 
                             </div>
