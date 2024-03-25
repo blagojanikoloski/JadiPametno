@@ -1,6 +1,5 @@
 ﻿@{
     var recipe = TempData["NeededRecipe"] as Recipe;
-
 }
 
 <!DOCTYPE html>
@@ -94,6 +93,7 @@
             background-color: var(--dl-color-grays-white100);
         }
     </style>
+   
     <style>
         ::placeholder {
             color: #63667066;
@@ -109,7 +109,7 @@
             <div class="navbar-navbar-container">
                 <header data-role="Header" class="navigation-container">
                     <img alt="logo"
-                         src="public/jadipametnologo-1500h.png"
+                         src="../public/jadipametnologo-1500h.png"
                          class="navbar-image" />
                     <div class="navbar-nav">
                         <nav class="navigation-links-nav navigation-links-root-class-name10">
@@ -130,7 +130,7 @@
                         <div class="navbar-nav1">
                             <div class="navbar-container">
                                 <img alt="image"
-                                     src="public/jadipametnologo-1500h.png"
+                                     src="../public/jadipametnologo-1500h.png"
                                      class="navbar-image1" />
                                 <div data-role="CloseMobileMenu" class="navbar-menu-close">
                                     <svg viewBox="0 0 1024 1024" class="navbar-icon02">
@@ -169,12 +169,14 @@
                 </header>
             </div>
             <main class="recipe-main">
-                <div class="recipe-calculator-section section-container">
+                <div class="recipe-recipe-main-container section-container">
                     <div class="recipe-max-width max-content-container">
                         <div id="calorie-calculator" class="recipe-recipe">
                             <span class="recipe-text">@recipe.Name</span>
-                            <span class="recipe-text01">Recept</span>
-                            <span class="recipe-text02">Recept</span>
+                            <span class="recipe-text01">
+                                @recipe.Description
+                            </span>
+                            <span class="recipe-text02">@recipe.Calories калории</span>
                             <span class="recipe-text03">
                                 <span>Состојки:</span>
                                 <br />
@@ -206,7 +208,7 @@
                     <div class="footer-container">
                         <div class="footer-logo-footer">
                             <img alt="image"
-                                 src="public/jadipametnologo-200h.png"
+                                 src="../public/jadipametnologo-200h.png"
                                  class="footer-image" />
                             <span class="footer-text">
                                 <span>
@@ -246,6 +248,7 @@
             </div>
         </div>
     </div>
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
+    
 </body>
 </html>
