@@ -3,9 +3,9 @@
 namespace JadiPametno.Models
 {
     [Keyless]
-    public class FoodHasIngredient
+    public class RecipeHasIngredient
     {
-        public int FoodId { get; set; }
+        public int RecipeId { get; set; }
         public int IngredientId { get; set; }
     }
 }

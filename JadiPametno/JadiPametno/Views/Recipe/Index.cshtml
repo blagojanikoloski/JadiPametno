@@ -1,5 +1,6 @@
 ﻿@{
     var recipe = TempData["NeededRecipe"] as Recipe;
+    var ingredients = TempData["NeededIngredients"] as List<Ingredient>;
 }
 
 <!DOCTYPE html>
@@ -182,14 +183,14 @@
                                 <br />
                             </span>
                             <div class="recipe-ingredients">
+
+                                @foreach(var ingredient in ingredients){
                                 <span class="recipe-text06">
-                                    <span>Состојки:</span>
+                                    <span>@ingredient.IngredientName</span>
                                     <br />
                                 </span>
-                                <span class="recipe-text09">
-                                    <span>Состојки:</span>
-                                    <br />
-                                </span>
+                                }
+                                
                             </div>
                             <span class="recipe-text12">
                                 <span>Рецепт:</span>

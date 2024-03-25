@@ -10,8 +10,7 @@ public class MyDbContext : DbContext
     }
 
     public DbSet<Recipe> Recipe { get; set; }
-    public DbSet<Food> Food { get; set; }
     public DbSet<Ingredient> Ingredient { get; set; }
-    public DbSet<FoodHasIngredient> FoodHasIngredient { get; set; }
+    public DbSet<RecipeHasIngredient> RecipeHasIngredient { get; set; }
 
 }
