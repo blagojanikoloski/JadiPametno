@@ -16,17 +16,26 @@ namespace JadiPametno.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        [HttpPost]
+        public IActionResult Index(IFormCollection form)
         {
+
+            // Retrieve values from the form
+            int calories = int.Parse(form["calories"]);
+            int numberOfMeals = int.Parse(form["numberOfMeals"]);
+
             // Fetch data from the database using Entity Framework Core
             var foods = _context.Set<Food>().ToList();
-            var ingredients = _context.Set<Ingredient>().ToList(); 
-            var recipes = _context.Set<Recipe>().ToList(); 
+            var ingredients = _context.Set<Ingredient>().ToList();
+            var recipes = _context.Set<Recipe>().OrderBy(r => Guid.NewGuid()).Take(numberOfMeals).ToList();
 
+           
             // Pass the fetched data to the view
             ViewBag.Foods = foods;
             ViewBag.Ingredients = ingredients;
             ViewBag.Recipes = recipes;
+            ViewBag.Calories = calories;
+            ViewBag.NumberOfMeals = numberOfMeals;
 
             return View();
         }

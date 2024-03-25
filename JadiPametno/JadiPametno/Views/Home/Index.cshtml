@@ -234,63 +234,56 @@
             </div>
             <main class="home-main">
                 <div class="home-selection-section section-container">
-                    <div class="home-max-width max-content-container">
-                        <h2 class="home-menu-heading">МЕНИ</h2>
-                        <div class="home-input-container">
-                            <span class="home-text">Сакам да јадам</span>
-                            <input type="number"
-                                   placeholder="2000"
-                                   class="home-textinput input" />
-                            <span class="home-text01">калории во</span>
-                            <input type="number"
-                                   placeholder="0"
-                                   class="home-textinput1 input" />
-                            <span class="home-text02">оброци</span>
-                        </div>
-                        <span class="home-text03" id="calculator-link">(Не знаеш колку калории?)</span>
-                        <div class="home-diet-types-container">
-                            <div class="feature-card-card">
-                                <img alt="image"
-                                     src="public/all_food-200h.png"
-                                     class="feature-card-image" />
-                                <span class="feature-card-text">
-                                    <span>Секаква храна</span>
-                                </span>
-                                <span class="feature-card-text1">
-                                    <span>Креирај рецепти &gt;</span>
-                                </span>
+
+
+                    <form action="/list" method="post">
+                        <div class="home-max-width max-content-container">
+                            <h2 class="home-menu-heading">МЕНИ</h2>
+                            <div class="home-input-container">
+                                <span class="home-text">Сакам да јадам</span>
+                                <input type="number" name="calories" placeholder="2000" class="home-textinput input" />
+                                <span class="home-text01">калории во</span>
+                                <input type="number" name="numberOfMeals" placeholder="0" class="home-textinput1 input" />
+                                <span class="home-text02">оброци</span>
                             </div>
-                            <div class="feature-card-card">
-                                <img alt="image"
-                                     src="public/vegan-200h.png"
-                                     class="feature-card-image" />
-                                <span class="feature-card-text"><span>Веганска</span></span>
-                                <span class="feature-card-text1">
-                                    <span>Креирај рецепти &gt;</span>
-                                </span>
-                            </div>
-                            <div class="feature-card-card">
-                                <img alt="image"
-                                     src="public/vegetarian-200h.png"
-                                     class="feature-card-image" />
-                                <span class="feature-card-text">
-                                    <span>Вегетаријанска</span>
-                                </span>
-                                <span class="feature-card-text1">
-                                    <span>Креирај рецепти &gt;</span>
-                                </span>
-                            </div>
-                            <div class="feature-card-card">
-                                <img alt="image"
-                                     src="public/keto-200h.png"
-                                     class="feature-card-image" />
-                                <span class="feature-card-text"><span>Кето</span></span>
-                                <span class="feature-card-text1">
-                                    <span>Креирај рецепти &gt;</span>
-                                </span>
+                            <span class="home-text03" id="calculator-link">(Не знаеш колку калории?)</span>
+                            <div class="home-diet-types-container">
+                                <div class="feature-card-card">
+                                    <img alt="image" src="public/all_food-200h.png" class="feature-card-image" />
+                                    <span class="feature-card-text">
+                                        <span>Секаква храна</span>
+                                    </span>
+                                    <button type="submit" class="feature-card-text1">
+                                        <span>Креирај рецепти &gt;</span>
+                                    </button>
+                                </div>
+                                <div class="feature-card-card">
+                                    <img alt="image" src="public/vegan-200h.png" class="feature-card-image" />
+                                    <span class="feature-card-text"><span>Веганска</span></span>
+                                    <button type="submit" class="feature-card-text1">
+                                        <span>Креирај рецепти &gt;</span>
+                                    </button>
+                                </div>
+                                <div class="feature-card-card">
+                                    <img alt="image" src="public/vegetarian-200h.png" class="feature-card-image" />
+                                    <span class="feature-card-text">
+                                        <span>Вегетаријанска</span>
+                                    </span>
+                                    <button type="submit" class="feature-card-text1">
+                                        <span>Креирај рецепти &gt;</span>
+                                    </button>
+                                </div>
+                                <div class="feature-card-card">
+                                    <img alt="image" src="public/keto-200h.png" class="feature-card-image" />
+                                    <span class="feature-card-text"><span>Кето</span></span>
+                                    <button type="submit" class="feature-card-text1">
+                                        <span>Креирај рецепти &gt;</span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </form>
+
                 </div>
                 <div class="home-eat-smart-live-good section-container">
                     <div class="home-max-width1 max-content-container">
