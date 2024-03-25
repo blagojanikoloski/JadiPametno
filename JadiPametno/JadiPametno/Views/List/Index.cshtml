@@ -195,19 +195,31 @@
 
                                 @foreach (var recipe in ViewBag.Recipes)
                                 {
-                                    <a href="#" class="card">
-                                        <img src="@recipe.ImageUrl" alt="@recipe.Name" class="card__img">
+
+
+                                    <a class="card" href="/List/ReplaceRecipe" onclick="event.preventDefault(); document.getElementById('replace-form').submit();">
+                                        <!-- This is the main container for the card -->
+                                        <img src="@recipe.ImageUrl" alt="@recipe.Name" class="card__img"> <!-- Image of the recipe -->
                                         <span class="card__footer">
-                                            <span>@recipe.Name</span>
-                                            <span>@recipe.Calories kcal</span>
+                                            <!-- Footer section of the card -->
+                                            <span>@recipe.Name</span> <!-- Name of the recipe -->
+                                            <span>@recipe.Calories kcal</span> <!-- Calories of the recipe -->
                                         </span>
                                         <span class="card__action1">
-                                            <span>Рецепт</span>
+                                            <!-- First action section of the card -->
+                                            <span>Рецепт</span> <!-- Label for the action (likely to view the recipe) -->
                                         </span>
                                         <span class="card__action2">
-                                            <span>Замени</span>
+                                            <!-- Second action section of the card -->
+                                            <form id="replace-form" method="post" action="/List/ReplaceRecipe" class="replace-form">
+                                                <!-- Form to replace the recipe -->
+                                                <input type="hidden" name="recipeId" value="@recipe.RecipeId" /> <!-- Hidden input containing the recipe ID -->
+                                            </form>
+                                            <button type="submit" form="replace-form" class="replace-button">Замени</button> <!-- Button to replace the recipe -->
                                         </span>
                                     </a>
+
+
                                 }
 
                                

@@ -56,51 +56,43 @@
 }
 
 .card__action1 {
-  font-family: 'Arial Black';
-  font-size: calc(var(--size) * 0.03);
-  position: absolute;
-  aspect-ratio: 1;
-  width: calc(var(--size) * 0.15);
-  bottom: 17%;
-  right: 1.5rem;
-  transform: translateY(50%)
-    translateY(
-      calc(
-        (var(--size) * 0.4)
-      )
-    )
-    translateY(calc(var(--hover, 0) * (var(--size) * -0.4)));
-  background: purple;
-  display: grid;
-  place-items: center;
-  border-radius: 0.5rem;
-  background: rgba(253, 141, 76, 0.5);
-/*   backdrop-filter: blur(calc(var(--blur) * 0.5)); */
-  transition: transform 0.2s;
+    font-family: 'Arial Black';
+    font-size: calc(var(--size) * 0.03);
+    position: absolute;
+    aspect-ratio: 1;
+    width: calc(var(--size) * 0.15);
+    bottom: 17%;
+    right: 1.5rem;
+    transform: translateY(50%) translateY( calc( (var(--size) * 0.4) ) ) translateY(calc(var(--hover, 0) * (var(--size) * -0.4)));
+    background: purple;
+    display: flex; /* Use flexbox for easier centering */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    place-items: center;
+    border-radius: 0.5rem;
+    background: rgba(253, 141, 76, 0.5);
+    /*   backdrop-filter: blur(calc(var(--blur) * 0.5)); */
+    transition: transform 0.2s;
 }
 
 .card__action2 {
-  font-family: 'Arial Black';
-  font-size: calc(var(--size) * 0.03);
-  position: absolute;
-  aspect-ratio: 1;
-  width: calc(var(--size) * 0.15);
-  bottom: 17%;
-  right: 7rem;
-  transform: translateY(50%)
-    translateY(
-      calc(
-        (var(--size) * 0.4)
-      )
-    )
-    translateY(calc(var(--hover, 0) * (var(--size) * -0.4)));
-  background: purple;
-  display: grid;
-  place-items: center;
-  border-radius: 0.5rem;
-  background: rgba(253, 141, 76, 0.5);
-/*   backdrop-filter: blur(calc(var(--blur) * 0.5)); */
-  transition: transform 0.2s;
+    font-family: 'Arial Black';
+    font-size: calc(var(--size) * 0.03);
+    position: absolute;
+    aspect-ratio: 1;
+    width: calc(var(--size) * 0.15);
+    bottom: 17%;
+    right: 7rem;
+    transform: translateY(50%) translateY( calc( (var(--size) * 0.4) ) ) translateY(calc(var(--hover, 0) * (var(--size) * -0.4)));
+    background: purple;
+    display: flex; /* Use flexbox for easier centering */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    place-items: center;
+    border-radius: 0.5rem;
+    background: rgba(253, 141, 76, 0.5);
+    /*   backdrop-filter: blur(calc(var(--blur) * 0.5)); */
+    transition: transform 0.2s;
 }
 
 
