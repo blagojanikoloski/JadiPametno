@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "I4qPSXoMvbViJgZpndhfyM+QdnlrxiB++Ud96JGLMe4=",
+  "Hash": "wY6CS3whFL6x6ITspZ3yoxtinujsnkmmmFZXkj37LdY=",
   "Source": "JadiPametno",
   "BasePath": "_content/JadiPametno",
   "Mode": "Default",
@@ -300,6 +300,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\popup.css"
+    },
+    {
+      "Identity": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\css\\recipe.css",
+      "SourceId": "JadiPametno",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\",
+      "BasePath": "_content/JadiPametno",
+      "RelativePath": "css/recipe.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\recipe.css"
     },
     {
       "Identity": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\css\\site.css",

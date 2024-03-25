@@ -1,8 +1,13 @@
-﻿<!DOCTYPE html>
+﻿@{
+    var recipe = TempData["NeededRecipe"] as Recipe;
+
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>List - JadiPametno</title>
-    <meta property="og:title" content="List - JadiPametno" />
+    <title>Recipe - JadiPametno</title>
+    <meta property="og:title" content="Recipe - JadiPametno" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -96,11 +101,11 @@
     </style>
 </head>
 <body>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <div>
-        <link href="css/list.css" rel="stylesheet" />
+        <link href="../css/recipe.css" rel="stylesheet" />
 
-        <div class="list-container">
+        <div class="recipe-container">
             <div class="navbar-navbar-container">
                 <header data-role="Header" class="navigation-container">
                     <img alt="logo"
@@ -163,47 +168,35 @@
                     </div>
                 </header>
             </div>
-            <main class="list-main">
-                <div class="list-calculator-section section-container">
-                    <div class="list-max-width max-content-container">
-                        <div id="calorie-calculator" class="list-calorie-calculator">
-                            <span class="list-text">@TempData["TotalCalories"] калории вкупно</span>
-
-                            <form id="listForm" action="/list" method="post">
-                                @if (TempData["Calories"] != null)
-                                {
-                                    <input type="hidden" name="calories" value="@TempData["Calories"]" />
-                                }
-
-                                @if (TempData["NumberOfMeals"] != null)
-                                {
-                                    <input type="hidden" name="numberOfMeals" value="@TempData["NumberOfMeals"]" />
-                                }
-
-
-                                <button class="list-calculate-button button-primary button" type="submit">Друго</button>
-                            </form>
-
-                            <div class="list-cards">
-                                @foreach (var recipe in TempData["Recipes"] as List<Recipe>)
-                                {
-                                    <div class="card">
-                                        <!-- This is the main container for the card -->
-                                        <img src="@recipe.ImageUrl" alt="@recipe.Name" class="card__img"> <!-- Image of the recipe -->
-                                        <span class="card__footer">
-                                            <!-- Footer section of the card -->
-                                            <span>@recipe.Name</span> <!-- Name of the recipe -->
-                                            <span>@recipe.Calories kcal</span> <!-- Calories of the recipe -->
-                                        </span>
-                                        <span class="card__action1">
-                                            <!-- First action section of the card -->
-                                            <a href="/recipe/@recipe.RecipeId">Рецепт</a> <!-- Label for the action (likely to view the recipe) -->
-                                        </span>
-                                    </div>
-                                }
+            <main class="recipe-main">
+                <div class="recipe-calculator-section section-container">
+                    <div class="recipe-max-width max-content-container">
+                        <div id="calorie-calculator" class="recipe-recipe">
+                            <span class="recipe-text">@recipe.Name</span>
+                            <span class="recipe-text01">Recept</span>
+                            <span class="recipe-text02">Recept</span>
+                            <span class="recipe-text03">
+                                <span>Состојки:</span>
+                                <br />
+                            </span>
+                            <div class="recipe-ingredients">
+                                <span class="recipe-text06">
+                                    <span>Состојки:</span>
+                                    <br />
+                                </span>
+                                <span class="recipe-text09">
+                                    <span>Состојки:</span>
+                                    <br />
+                                </span>
                             </div>
-
-
+                            <span class="recipe-text12">
+                                <span>Рецепт:</span>
+                                <br />
+                            </span>
+                            <span class="recipe-text15">
+                                <span>Состојки:</span>
+                                <br />
+                            </span>
                         </div>
                     </div>
                 </div>

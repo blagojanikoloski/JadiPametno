@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\css\\popup.css"
     },
     {
+      "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\css\\recipe.css",
+      "PackagePath": "staticwebassets\\css\\recipe.css"
+    },
+    {
       "Id": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
