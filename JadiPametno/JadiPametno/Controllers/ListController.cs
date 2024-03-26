@@ -39,70 +39,39 @@ namespace JadiPametno.Controllers
             return View();
         }
 
+
+
         private List<Recipe> GetRecipesForCalories(List<Recipe> recipes, int targetCalories, int numberOfMeals)
         {
-            List<Recipe> selectedRecipes = new List<Recipe>();
-            int totalCalories = 0;
-            int remainingMeals = numberOfMeals;
-
-            // Shuffle recipes to have a random selection each time
+            // Shuffle recipes to introduce randomness
             recipes.Shuffle();
 
+            int totalCalories = 0;
+            List<Recipe> selectedRecipes = new List<Recipe>();
+
+            // Iterate through shuffled recipes until the desired number of meals is selected
             foreach (var recipe in recipes)
             {
-                if (remainingMeals <= 0 || totalCalories >= targetCalories)
-                {
-                    // If we have enough meals or calories, break the loop
+                if (selectedRecipes.Count == numberOfMeals || totalCalories > targetCalories + 200)
                     break;
-                }
 
-                int newTotalCalories = totalCalories + (int)recipe.Calories;
-
-                // Check if adding this recipe will keep the total calories within the desired range
-                if (Math.Abs(newTotalCalories - targetCalories) <= 150 && remainingMeals == 1)
+                // Add recipe to selected recipes if adding it keeps total calories within range
+                if (totalCalories + recipe.Calories <= targetCalories + 200)
                 {
-                    // If this recipe makes the total calories within range and it's the last meal needed, add it
                     selectedRecipes.Add(recipe);
-                    totalCalories = newTotalCalories;
-                    remainingMeals--;
-                }
-                else if (newTotalCalories <= targetCalories && remainingMeals > 1)
-                {
-                    // If adding this recipe keeps us below the target calories and more meals are needed, add it
-                    selectedRecipes.Add(recipe);
-                    totalCalories = newTotalCalories;
-                    remainingMeals--;
+                    totalCalories += (int)recipe.Calories;
                 }
             }
-
-            // Check if the total calories are still below the target after selecting the maximum number of meals
-            if (totalCalories < targetCalories && remainingMeals == 0)
-            {
-                // Iterate through recipes again to fill the remaining calories
-                foreach (var recipe in recipes)
-                {
-                    int newTotalCalories = totalCalories + (int)recipe.Calories;
-
-                    if (newTotalCalories <= targetCalories)
-                    {
-                        // If adding this recipe keeps us below or at the target calories, add it
-                        selectedRecipes.Add(recipe);
-                        totalCalories = newTotalCalories;
-
-                        if (totalCalories >= targetCalories)
-                        {
-                            // If we've reached the target calories, break the loop
-                            break;
-                        }
-                    }
-                }
-            }
-
-
+            // Update TempData with total calories
             TempData["TotalCalories"] = totalCalories;
 
             return selectedRecipes;
         }
+
+
+
+
+
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
