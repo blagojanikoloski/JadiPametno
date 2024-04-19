@@ -41,32 +41,57 @@ namespace JadiPametno.Controllers
 
 
 
+        private List<List<Recipe>> GetAllRecipeCombinations(List<Recipe> recipes, int targetCalories, int numberOfMeals)
+        {
+            List<List<Recipe>> allCombinations = new List<List<Recipe>>();
+            FindRecipeCombinations(allCombinations, new List<Recipe>(), recipes, 0, targetCalories, numberOfMeals);
+            return allCombinations;
+        }
+
+        private void FindRecipeCombinations(List<List<Recipe>> allCombinations, List<Recipe> currentCombination, List<Recipe> remainingRecipes, int index, int targetCalories, int numberOfMeals)
+        {
+            if (currentCombination.Count == numberOfMeals)
+            {
+                int totalCalories = (int)currentCombination.Sum(recipe => recipe.Calories);
+                if (totalCalories >= targetCalories - 100 * numberOfMeals && totalCalories <= targetCalories + 100 * numberOfMeals)
+                {
+                    allCombinations.Add(new List<Recipe>(currentCombination));
+                }
+                return;
+            }
+
+            for (int i = index; i < remainingRecipes.Count; i++)
+            {
+                currentCombination.Add(remainingRecipes[i]);
+                FindRecipeCombinations(allCombinations, currentCombination, remainingRecipes, i + 1, targetCalories, numberOfMeals);
+                currentCombination.RemoveAt(currentCombination.Count - 1);
+            }
+        }
+
         private List<Recipe> GetRecipesForCalories(List<Recipe> recipes, int targetCalories, int numberOfMeals)
         {
-            // Shuffle recipes to introduce randomness
-            recipes.Shuffle();
+            List<List<Recipe>> allCombinations = GetAllRecipeCombinations(recipes, targetCalories, numberOfMeals);
 
-            int totalCalories = 0;
-            List<Recipe> selectedRecipes = new List<Recipe>();
+            // Shuffle the list of combinations to introduce randomness
+            allCombinations.Shuffle();
 
-            // Iterate through shuffled recipes until the desired number of meals is selected
-            foreach (var recipe in recipes)
+            foreach (var combination in allCombinations)
             {
-                if (selectedRecipes.Count == numberOfMeals || totalCalories > targetCalories + 200)
-                    break;
-
-                // Add recipe to selected recipes if adding it keeps total calories within range
-                if (totalCalories + recipe.Calories <= targetCalories + 200)
+                int totalCalories = (int)combination.Sum(recipe => recipe.Calories);
+                if (totalCalories >= targetCalories - 33 * numberOfMeals && totalCalories <= targetCalories + 33 * numberOfMeals)
                 {
-                    selectedRecipes.Add(recipe);
-                    totalCalories += (int)recipe.Calories;
+                    // Update TempData with total calories
+                    TempData["TotalCalories"] = totalCalories;
+                    return combination;
                 }
             }
-            // Update TempData with total calories
-            TempData["TotalCalories"] = totalCalories;
 
-            return selectedRecipes;
+            // If no valid combination found, return an empty list
+            return new List<Recipe>();
         }
+
+
+
 
 
 
