@@ -1,4 +1,5 @@
-﻿namespace JadiPametno.Models
+﻿
+namespace JadiPametno.Models
 {
     public class Recipe
     {

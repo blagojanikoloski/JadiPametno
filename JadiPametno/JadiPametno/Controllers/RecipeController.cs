@@ -63,6 +63,31 @@ namespace JadiPametno.Controllers
             System.Diagnostics.Debug.WriteLine("Instructions: " + model.Instructions);
             System.Diagnostics.Debug.WriteLine("Image URL: " + model.ImageUrl);
 
+            var recipeToAdd = new Recipe
+            {
+                Name = model.RecipeName,
+                Calories = model.Calories,
+                Description = model.Instructions,
+                ImageUrl = model.ImageUrl,
+                Type = model.RecipeType,
+            };
+            _context.Recipe.Add(recipeToAdd);
+            _context.SaveChanges();
+
+            
+            int newRecipeId = recipeToAdd.RecipeId;
+            foreach (var ingredientId in model.SelectedIngredients)
+            {
+                var RecipeHasIngredientToAdd = new RecipeHasIngredient
+                {
+                    RecipeId = newRecipeId,
+                    IngredientId = ingredientId,
+                };
+
+                _context.RecipeHasIngredient.Add(RecipeHasIngredientToAdd);
+            }
+            _context.SaveChanges();
+
             return Redirect("/");
         }
 

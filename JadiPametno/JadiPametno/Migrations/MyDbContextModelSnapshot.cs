@@ -71,11 +71,19 @@ namespace JadiPametno.Migrations
 
             modelBuilder.Entity("JadiPametno.Models.RecipeHasIngredient", b =>
                 {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
                     b.Property<int>("IngredientId")
                         .HasColumnType("int");
 
                     b.Property<int>("RecipeId")
                         .HasColumnType("int");
+
+                    b.HasKey("Id");
 
                     b.ToTable("RecipeHasIngredient");
                 });
