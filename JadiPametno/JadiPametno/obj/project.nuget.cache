@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dFB1wxewg3ROOTaXmKPhyBbdy652C5YiwZJ+aFs0PIWG3gqW0A72FGggdtOH3QSaHf+L7BO8ZBjvYVOlcawsfg==",
+  "dgSpecHash": "rhOv2hByW6DXylXdMyCYoecf+W/nFAmcSWf52TZTwkDfSsCVSLMxkJGCX9bz0egAUB7OCa1Pp6/XfBXRTbU5+w==",
   "success": true,
-  "projectFilePath": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\JadiPametno.csproj",
+  "projectFilePath": "C:\\Users\\Blagoja Nikoloski\\Desktop\\jadi\\JadiPametno\\JadiPametno\\JadiPametno\\JadiPametno.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Blagoja Nikoloski\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Blagoja Nikoloski\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

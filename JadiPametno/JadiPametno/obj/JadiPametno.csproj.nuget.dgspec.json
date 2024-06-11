@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\JadiPametno.csproj": {}
+    "C:\\Users\\Blagoja Nikoloski\\Desktop\\jadi\\JadiPametno\\JadiPametno\\JadiPametno\\JadiPametno.csproj": {}
   },
   "projects": {
-    "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\JadiPametno.csproj": {
+    "C:\\Users\\Blagoja Nikoloski\\Desktop\\jadi\\JadiPametno\\JadiPametno\\JadiPametno\\JadiPametno.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\JadiPametno.csproj",
+        "projectUniqueName": "C:\\Users\\Blagoja Nikoloski\\Desktop\\jadi\\JadiPametno\\JadiPametno\\JadiPametno\\JadiPametno.csproj",
         "projectName": "JadiPametno",
-        "projectPath": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\JadiPametno.csproj",
+        "projectPath": "C:\\Users\\Blagoja Nikoloski\\Desktop\\jadi\\JadiPametno\\JadiPametno\\JadiPametno\\JadiPametno.csproj",
         "packagesPath": "C:\\Users\\Blagoja Nikoloski\\.nuget\\packages\\",
-        "outputPath": "D:\\JadiPametno\\github\\JadiPametno\\JadiPametno\\JadiPametno\\obj\\",
+        "outputPath": "C:\\Users\\Blagoja Nikoloski\\Desktop\\jadi\\JadiPametno\\JadiPametno\\JadiPametno\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

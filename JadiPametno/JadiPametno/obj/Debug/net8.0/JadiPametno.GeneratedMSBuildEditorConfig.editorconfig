@@ -9,43 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = JadiPametno
 build_property.RootNamespace = JadiPametno
-build_property.ProjectDir = D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno\
+build_property.ProjectDir = C:\Users\Blagoja Nikoloski\Desktop\jadi\JadiPametno\JadiPametno\JadiPametno\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\JadiPametno\github\JadiPametno\JadiPametno\JadiPametno
+build_property.MSBuildProjectDirectory = C:\Users\Blagoja Nikoloski\Desktop\jadi\JadiPametno\JadiPametno\JadiPametno
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/JadiPametno/github/JadiPametno/JadiPametno/JadiPametno/Views/Home/Index.cshtml]
+[C:/Users/Blagoja Nikoloski/Desktop/jadi/JadiPametno/JadiPametno/JadiPametno/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/JadiPametno/github/JadiPametno/JadiPametno/JadiPametno/Views/List/Index.cshtml]
+[C:/Users/Blagoja Nikoloski/Desktop/jadi/JadiPametno/JadiPametno/JadiPametno/Views/List/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/JadiPametno/github/JadiPametno/JadiPametno/JadiPametno/Views/Recipe/Index.cshtml]
+[C:/Users/Blagoja Nikoloski/Desktop/jadi/JadiPametno/JadiPametno/JadiPametno/Views/Recipe/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Blagoja Nikoloski/Desktop/jadi/JadiPametno/JadiPametno/JadiPametno/Views/Recipe/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/JadiPametno/github/JadiPametno/JadiPametno/JadiPametno/Views/Shared/Error.cshtml]
+[C:/Users/Blagoja Nikoloski/Desktop/jadi/JadiPametno/JadiPametno/JadiPametno/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/JadiPametno/github/JadiPametno/JadiPametno/JadiPametno/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Blagoja Nikoloski/Desktop/jadi/JadiPametno/JadiPametno/JadiPametno/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/JadiPametno/github/JadiPametno/JadiPametno/JadiPametno/Views/_ViewImports.cshtml]
+[C:/Users/Blagoja Nikoloski/Desktop/jadi/JadiPametno/JadiPametno/JadiPametno/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/JadiPametno/github/JadiPametno/JadiPametno/JadiPametno/Views/_ViewStart.cshtml]
+[C:/Users/Blagoja Nikoloski/Desktop/jadi/JadiPametno/JadiPametno/JadiPametno/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/JadiPametno/github/JadiPametno/JadiPametno/JadiPametno/Views/Shared/_Layout.cshtml]
+[C:/Users/Blagoja Nikoloski/Desktop/jadi/JadiPametno/JadiPametno/JadiPametno/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ane4dyd2to

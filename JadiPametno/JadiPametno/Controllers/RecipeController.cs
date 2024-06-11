@@ -1,6 +1,8 @@
 ﻿using JadiPametno.Models;
+using JadiPametno.Models.DTOs;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace JadiPametno.Controllers
 {
@@ -33,6 +35,60 @@ namespace JadiPametno.Controllers
 
             return View("~/Views/Recipe/Index.cshtml");
         }
+
+        [HttpGet]
+        [Route("recipe/Add")]
+        public IActionResult Add()
+        {
+            var allIngredients = _context.Ingredient.ToList();
+            TempData["AllIngredients"] = allIngredients;
+            return View("~/Views/Recipe/Add.cshtml");
+        }
+
+
+        [HttpPost]
+        public IActionResult Add(RecipeAddDto model)
+        {
+            System.Diagnostics.Debug.WriteLine("Name: " + model.RecipeName);
+            System.Diagnostics.Debug.WriteLine("Type: " + model.RecipeType);
+            if (model.SelectedIngredients != null)
+            {
+                foreach (var ingredientId in model.SelectedIngredients)
+                {
+                    System.Diagnostics.Debug.WriteLine("Ingredient ID: " + ingredientId);
+                    
+                }
+            }
+            System.Diagnostics.Debug.WriteLine("Calories: " + model.Calories);
+            System.Diagnostics.Debug.WriteLine("Instructions: " + model.Instructions);
+            System.Diagnostics.Debug.WriteLine("Image URL: " + model.ImageUrl);
+
+            return Redirect("/");
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> AddIngredient(string name)
+        {
+            // Check if the ingredient already exists
+            var existingIngredient = await _context.Ingredient.FirstOrDefaultAsync(i => i.IngredientName == name);
+
+            if (existingIngredient != null)
+            {
+                // Ingredient already exists, return conflict status
+                return Conflict("Ingredient already exists");
+            }
+
+            // Ingredient does not exist, add it to the database
+            var newIngredient = new Ingredient { IngredientName = name };
+
+            _context.Ingredient.Add(newIngredient);
+            await _context.SaveChangesAsync();
+
+            return Json(new { success = true });
+        }
+
+
     }
 }
 
