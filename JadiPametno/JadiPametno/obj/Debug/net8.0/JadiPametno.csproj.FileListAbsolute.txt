@@ -302,3 +302,5 @@ C:\Users\Blagoja Nikoloski\Desktop\jadi\JadiPametno\JadiPametno\JadiPametno\obj\
 C:\Users\Blagoja Nikoloski\Desktop\jadi\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\JadiPametno.pdb
 C:\Users\Blagoja Nikoloski\Desktop\jadi\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\JadiPametno.genruntimeconfig.cache
 C:\Users\Blagoja Nikoloski\Desktop\jadi\JadiPametno\JadiPametno\JadiPametno\obj\Debug\net8.0\ref\JadiPametno.dll
+C:\Users\Blagoja Nikoloski\Desktop\jadi\JadiPametno\JadiPametno\JadiPametno\bin\Debug\net8.0\Npgsql.dll
+C:\Users\Blagoja Nikoloski\Desktop\jadi\JadiPametno\JadiPametno\JadiPametno\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

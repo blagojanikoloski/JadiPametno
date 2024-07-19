@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rhOv2hByW6DXylXdMyCYoecf+W/nFAmcSWf52TZTwkDfSsCVSLMxkJGCX9bz0egAUB7OCa1Pp6/XfBXRTbU5+w==",
+  "dgSpecHash": "w8auoAQ50hQGWEcV/h7gOnKoFUya8EOP/VLulroEeziI9o6grNpIoO+dYEQWwGk79fVWWOaFLlVgjyw6cQ1rUw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Blagoja Nikoloski\\Desktop\\jadi\\JadiPametno\\JadiPametno\\JadiPametno\\JadiPametno.csproj",
   "expectedPackageFiles": [
@@ -46,6 +46,8 @@
     "C:\\Users\\Blagoja Nikoloski\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512",
     "C:\\Users\\Blagoja Nikoloski\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Blagoja Nikoloski\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Blagoja Nikoloski\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512",
+    "C:\\Users\\Blagoja Nikoloski\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.2\\npgsql.entityframeworkcore.postgresql.8.0.2.nupkg.sha512",
     "C:\\Users\\Blagoja Nikoloski\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\Blagoja Nikoloski\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Blagoja Nikoloski\\.nuget\\packages\\system.composition\\6.0.0\\system.composition.6.0.0.nupkg.sha512",
