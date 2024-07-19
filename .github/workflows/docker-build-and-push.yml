@@ -26,5 +26,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
+          file: ./JadiPametno/Dockerfile
           push: true
           tags: blagojanikoloski/jadipametno:latest
