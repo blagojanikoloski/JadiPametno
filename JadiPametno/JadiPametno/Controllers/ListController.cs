@@ -24,9 +24,17 @@ namespace JadiPametno.Controllers
             // Retrieve values from the form
             int calories = int.Parse(form["calories"]);
             int numberOfMeals = int.Parse(form["numberOfMeals"]);
+            string dietType = form["dietType"];
 
-            // Fetch data from the database using Entity Framework Core
-            var recipes = _context.Set<Recipe>().ToList(); // Retrieve all recipes
+            List<Recipe> recipes;
+            if (dietType.Equals("all"))
+            {
+                recipes = _context.Set<Recipe>().ToList();
+            }
+            else
+            {
+                recipes = _context.Set<Recipe>().Where(r => r.Type.Equals(dietType)).ToList();
+            }
 
             // Select combination of recipes that are around the desired calories
             var selectedRecipes = GetRecipesForCalories(recipes, calories, numberOfMeals);
