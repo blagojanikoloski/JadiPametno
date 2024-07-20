@@ -186,6 +186,11 @@
                                     <input type="hidden" name="numberOfMeals" value="@TempData["NumberOfMeals"]" />
                                 }
 
+                                @if (TempData["DietType"] != null)
+                                {
+                                    <input type="hidden" name="dietType" value="@TempData["DietType"]" />
+                                }
+
 
                                 <button class="list-calculate-button button-primary button" type="submit">Друго</button>
                             </form>

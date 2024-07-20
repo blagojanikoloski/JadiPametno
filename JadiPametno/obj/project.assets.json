@@ -4238,11 +4238,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Blagoja Nikoloski\\Desktop\\jadi\\JadiPametno\\JadiPametno\\JadiPametno\\JadiPametno.csproj",
+      "projectUniqueName": "C:\\Users\\Blagoja Nikoloski\\Desktop\\jadi\\JadiPametno\\JadiPametno\\JadiPametno.csproj",
       "projectName": "JadiPametno",
-      "projectPath": "C:\\Users\\Blagoja Nikoloski\\Desktop\\jadi\\JadiPametno\\JadiPametno\\JadiPametno\\JadiPametno.csproj",
+      "projectPath": "C:\\Users\\Blagoja Nikoloski\\Desktop\\jadi\\JadiPametno\\JadiPametno\\JadiPametno.csproj",
       "packagesPath": "C:\\Users\\Blagoja Nikoloski\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Blagoja Nikoloski\\Desktop\\jadi\\JadiPametno\\JadiPametno\\JadiPametno\\obj\\",
+      "outputPath": "C:\\Users\\Blagoja Nikoloski\\Desktop\\jadi\\JadiPametno\\JadiPametno\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -49,6 +49,13 @@ namespace JadiPametno.Controllers
         [HttpPost]
         public IActionResult Add(RecipeAddDto model)
         {
+
+            // Capitalize the first letter and make the rest lowercase for RecipeName
+            if (!string.IsNullOrWhiteSpace(model.RecipeName))
+            {
+                model.RecipeName = char.ToUpper(model.RecipeName[0]) + model.RecipeName.Substring(1).ToLower();
+            }
+
             System.Diagnostics.Debug.WriteLine("Name: " + model.RecipeName);
             System.Diagnostics.Debug.WriteLine("Type: " + model.RecipeType);
             if (model.SelectedIngredients != null)
@@ -95,6 +102,14 @@ namespace JadiPametno.Controllers
         [HttpPost]
         public async Task<IActionResult> AddIngredient(string name)
         {
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                return BadRequest("Ingredient name cannot be empty.");
+            }
+
+            // Capitalize the first letter and make the rest lowercase
+            name = char.ToUpper(name[0]) + name.Substring(1).ToLower();
+
             // Check if the ingredient already exists
             var existingIngredient = await _context.Ingredient.FirstOrDefaultAsync(i => i.IngredientName == name);
 

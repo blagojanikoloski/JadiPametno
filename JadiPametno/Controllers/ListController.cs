@@ -43,6 +43,7 @@ namespace JadiPametno.Controllers
             TempData["Recipes"] = selectedRecipes;
             TempData["Calories"] = calories;
             TempData["NumberOfMeals"] = numberOfMeals;
+            TempData["DietType"] = dietType;
 
             return View();
         }
