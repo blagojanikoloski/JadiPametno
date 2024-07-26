@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using JadiPametno.Models.DTOs;
+using Microsoft.AspNetCore.Mvc;
 
 namespace JadiPametno.Controllers
 {
@@ -16,10 +17,26 @@ namespace JadiPametno.Controllers
         [Route("admin/ApproveRecipe")]
         public IActionResult Approve()
         {
-            var unapprovedRecipes = _context.Recipe.Where(r => r.Status == 0).ToList();
+            var unapprovedRecipes = _context.Recipe
+                .Where(r => r.Status == 0)
+                .Select(r => new RecipeWithIngredientsDto
+                {
+                    Recipe = r,
+                    Ingredients = _context.RecipeHasIngredient
+                        .Where(rh => rh.RecipeId == r.RecipeId)
+                        .Join(_context.Ingredient,
+                              rh => rh.IngredientId,
+                              i => i.IngredientId,
+                              (rh, i) => i)
+                        .ToList()
+                })
+                .ToList();
+
             TempData["UnapprovedRecipes"] = unapprovedRecipes;
-            return View("~/Views/Admin/ApproveRecipe.cshtml");
+            return View("~/Views/Admin/ApproveRecipe.cshtml", unapprovedRecipes);
         }
+
+
 
         [HttpPost]
         [Route("admin/approveRecipe")]
@@ -33,6 +50,28 @@ namespace JadiPametno.Controllers
             }
             return RedirectToAction("Approve");
         }
+
+        [HttpPost]
+        [Route("admin/rejectRecipe")]
+        public IActionResult RejectRecipe(int recipeId)
+        {
+            // Find the recipe with the given ID
+            var recipe = _context.Recipe.Find(recipeId);
+
+            // Check if the recipe exists
+            if (recipe != null)
+            {
+                // Remove the recipe from the database
+                _context.Recipe.Remove(recipe);
+
+                // Save changes to the database
+                _context.SaveChanges();
+            }
+
+            // Redirect to the "Approve" action or another relevant action/view
+            return RedirectToAction("Approve");
+        }
+
 
         public IActionResult Index()
         {

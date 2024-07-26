@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\css\\add-recipe.css"
     },
     {
+      "Id": "C:\\Users\\Blagoja Nikoloski\\Desktop\\jadi\\JadiPametno\\JadiPametno\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
       "Id": "C:\\Users\\Blagoja Nikoloski\\Desktop\\jadi\\JadiPametno\\JadiPametno\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },

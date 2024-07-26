@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OsBRTi29vaZSQGyBXO56hXZkgBxtdJac3wb1vgGTctA=",
+  "Hash": "LeAFtpZ7YJZwwr3XxEAIQp+SxmwzXgSdrAS12gFok04=",
   "Source": "JadiPametno",
   "BasePath": "_content/JadiPametno",
   "Mode": "Default",
@@ -262,6 +262,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\add-recipe.css"
+    },
+    {
+      "Identity": "C:\\Users\\Blagoja Nikoloski\\Desktop\\jadi\\JadiPametno\\JadiPametno\\wwwroot\\css\\admin.css",
+      "SourceId": "JadiPametno",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Blagoja Nikoloski\\Desktop\\jadi\\JadiPametno\\JadiPametno\\wwwroot\\",
+      "BasePath": "_content/JadiPametno",
+      "RelativePath": "css/admin.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\admin.css"
     },
     {
       "Identity": "C:\\Users\\Blagoja Nikoloski\\Desktop\\jadi\\JadiPametno\\JadiPametno\\wwwroot\\css\\index.css",

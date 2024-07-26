@@ -1,5 +1,5 @@
 ﻿@{
-    var unapprovedRecipes = TempData["UnapprovedRecipes"] as List<JadiPametno.Models.Recipe>;
+    var unapprovedRecipes = TempData["UnapprovedRecipes"] as List<JadiPametno.Models.DTOs.RecipeWithIngredientsDto>;
 }
 
 <!DOCTYPE html>
@@ -103,7 +103,7 @@
 <body>
     <link rel="stylesheet" href="../css/style.css" />
     <div>
-        <link href="../css/recipe.css" rel="stylesheet" />
+        <link href="../css/admin.css" rel="stylesheet" />
 
         <div class="recipe-container">
             <div class="navbar-navbar-container">
@@ -187,6 +187,8 @@
                                     <th>Тип</th>
                                     <th>Калории</th>
                                     <th>Слика</th>
+                                    <th>Состојки</th>
+                                    <th></th>
                                     <th></th>
                                 </tr>
                             </thead>
@@ -194,15 +196,28 @@
                                 @foreach (var recipe in unapprovedRecipes)
                                 {
                                     <tr>
-                                        <td>@recipe.Name</td>
-                                        <td>@recipe.Description</td>
-                                        <td>@recipe.Type</td>
-                                        <td>@recipe.Calories</td>
-                                        <td><img src="@recipe.ImageUrl" alt="@recipe.Name" width="100" height="100" /></td>
+                                        <td>@recipe.Recipe.Name</td>
+                                        <td>@recipe.Recipe.Description</td>
+                                        <td>@recipe.Recipe.Type</td>
+                                        <td>@recipe.Recipe.Calories</td>
+                                        <td><img src="@recipe.Recipe.ImageUrl" alt="@recipe.Recipe.Name" width="100" height="100" /></td>
+                                        <td>
+                                            @foreach (var ingredient in recipe.Ingredients)
+                                            {
+                                                <li>@ingredient.IngredientName</li>
+                                            }
+
+                                        </td>
                                         <td>
                                             <form method="post" asp-controller="Admin" asp-action="ApproveRecipe">
-                                                <input type="hidden" name="recipeId" value="@recipe.RecipeId" />
-                                                <button type="submit">Approve</button>
+                                                <input type="hidden" name="recipeId" value="@recipe.Recipe.RecipeId" />
+                                                <button type="submit" class="approve-button">Approve</button>
+                                            </form>
+                                        </td>
+                                        <td>
+                                            <form method="post" asp-controller="Admin" asp-action="RejectRecipe">
+                                                <input type="hidden" name="recipeId" value="@recipe.Recipe.RecipeId" />
+                                                <button type="submit" class="reject-button">Reject</button>
                                             </form>
                                         </td>
                                     </tr>
