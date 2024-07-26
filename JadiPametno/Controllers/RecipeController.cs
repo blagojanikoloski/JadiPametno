@@ -55,9 +55,6 @@ namespace JadiPametno.Controllers
             {
                 model.RecipeName = char.ToUpper(model.RecipeName[0]) + model.RecipeName.Substring(1).ToLower();
             }
-
-            System.Diagnostics.Debug.WriteLine("Name: " + model.RecipeName);
-            System.Diagnostics.Debug.WriteLine("Type: " + model.RecipeType);
             if (model.SelectedIngredients != null)
             {
                 foreach (var ingredientId in model.SelectedIngredients)
@@ -66,9 +63,6 @@ namespace JadiPametno.Controllers
                     
                 }
             }
-            System.Diagnostics.Debug.WriteLine("Calories: " + model.Calories);
-            System.Diagnostics.Debug.WriteLine("Instructions: " + model.Instructions);
-            System.Diagnostics.Debug.WriteLine("Image URL: " + model.ImageUrl);
 
             var recipeToAdd = new Recipe
             {
@@ -77,6 +71,7 @@ namespace JadiPametno.Controllers
                 Description = model.Instructions,
                 ImageUrl = model.ImageUrl,
                 Type = model.RecipeType,
+                Status = 0,
             };
             _context.Recipe.Add(recipeToAdd);
             _context.SaveChanges();
@@ -128,7 +123,7 @@ namespace JadiPametno.Controllers
             return Json(new { success = true });
         }
 
-
     }
+
 }
 

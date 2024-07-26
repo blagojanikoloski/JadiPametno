@@ -29,11 +29,11 @@ namespace JadiPametno.Controllers
             List<Recipe> recipes;
             if (dietType.Equals("all"))
             {
-                recipes = _context.Set<Recipe>().ToList();
+                recipes = _context.Set<Recipe>().Where(r => r.Status == 1).ToList();
             }
             else
             {
-                recipes = _context.Set<Recipe>().Where(r => r.Type.Equals(dietType)).ToList();
+                recipes = _context.Set<Recipe>().Where(r => r.Type.Equals(dietType) && r.Status == 1).ToList();
             }
 
             // Select combination of recipes that are around the desired calories

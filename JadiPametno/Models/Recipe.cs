@@ -9,6 +9,7 @@ namespace JadiPametno.Models
         public string Type { get; set; }
         public float Calories { get; set; }
         public string ImageUrl { get; set; }
+        public int Status { get; set; }
 
     }
 }
