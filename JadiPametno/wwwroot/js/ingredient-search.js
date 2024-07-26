@@ -14,6 +14,7 @@
 
         // Loop through each ingredient label
         var found = false;
+        var exactMatch = false;
         ingredientLabels.forEach(function (label) {
             // Get the ingredient name inside this label
             var ingredientName = label.querySelector('.add-recipe-text5').textContent.trim().toLowerCase();
@@ -27,10 +28,14 @@
                 // If it doesn't, hide the label by adding the 'hidden' class
                 label.classList.add('hidden');
             }
+
+            if (ingredientName === (searchQuery.toLowerCase())) {
+                exactMatch = true;
+            }
         });
 
         // If no ingredient is found, display the "Add ingredient" message
-        if (!found && searchQuery !== "") {
+        if (!exactMatch && searchQuery !== "") {
             var message = document.createElement('div');
             message.classList.add('add-ingredient-message');
             message.textContent = "Го нема '" + searchQuery + "' на листата, додади?";
