@@ -33,7 +33,7 @@ namespace JadiPametno.Controllers
                 .ToList();
 
             TempData["UnapprovedRecipes"] = unapprovedRecipes;
-            return View("~/Views/Admin/ApproveRecipe.cshtml", unapprovedRecipes);
+            return View("~/Views/Admin/ApproveRecipe.cshtml");
         }
 
 
