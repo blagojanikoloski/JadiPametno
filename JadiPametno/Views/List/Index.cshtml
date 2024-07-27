@@ -198,19 +198,21 @@
                             <div class="list-cards">
                                 @foreach (var recipe in TempData["Recipes"] as List<Recipe>)
                                 {
+
+
                                     <div class="card">
-                                        <!-- This is the main container for the card -->
-                                        <img src="@recipe.ImageUrl" alt="@recipe.Name" class="card__img"> <!-- Image of the recipe -->
-                                        <span class="card__footer">
-                                            <!-- Footer section of the card -->
-                                            <span>@recipe.Name</span> <!-- Name of the recipe -->
-                                            <span>@recipe.Calories kcal</span> <!-- Calories of the recipe -->
-                                        </span>
-                                        <span class="card__action1">
-                                            <!-- First action section of the card -->
-                                            <a href="/recipe/@recipe.RecipeId">Рецепт</a> <!-- Label for the action (likely to view the recipe) -->
-                                        </span>
+                                        <div class="card-image">
+                                            <img src="@recipe.ImageUrl">
+                                        </div>
+                                        <div class="card-text">
+                                            <h2 class="card-title">@recipe.Name</h2>
+                                            <p class="card-body">@recipe.Calories kcal</p>
+                                        </div>
+                                        <a href="/recipe/@recipe.RecipeId" class="card-price">></a>
                                     </div>
+
+                                  
+
                                 }
                             </div>
 
