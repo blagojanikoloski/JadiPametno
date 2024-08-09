@@ -200,19 +200,13 @@
                                 {
 
 
-                                    <div class="card">
-                                        <div class="card-image">
-                                            <img src="@recipe.ImageUrl">
-                                        </div>
-                                        <div class="card-text">
-                                            <h2 class="card-title">@recipe.Name</h2>
-                                            <p class="card-body">@recipe.Calories kcal</p>
-                                        </div>
-                                        <a href="/recipe/@recipe.RecipeId" class="card-price">></a>
-                                    </div>
-
-                                  
-
+                                    <a href="/recipe/@recipe.RecipeId" class="card">
+                                        <div class="image" style="background-image: url('@recipe.ImageUrl');"></div>
+                                        <span class="title">@recipe.Name</span>
+                                        <span class="price">@recipe.Calories kcal</span>
+                                        <div class="overlay">Види рецепт</div>
+                                    </a>
+                              
                                 }
                             </div>
 
